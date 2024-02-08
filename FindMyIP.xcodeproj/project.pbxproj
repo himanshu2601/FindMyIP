@@ -1,0 +1,793 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52BB2FAB20742432A9CDD347 /* Pods_FindMyIP_FindMyIPUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F0CB1BE1B6AAE121BDA27A7 /* Pods_FindMyIP_FindMyIPUITests.framework */; };
+		5E1ED0082B74D88E00D49E4B /* FindMyIPApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED0072B74D88E00D49E4B /* FindMyIPApp.swift */; };
+		5E1ED00A2B74D88E00D49E4B /* InfoContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED0092B74D88E00D49E4B /* InfoContentView.swift */; };
+		5E1ED00C2B74D89200D49E4B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1ED00B2B74D89200D49E4B /* Assets.xcassets */; };
+		5E1ED00F2B74D89200D49E4B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5E1ED00E2B74D89200D49E4B /* Preview Assets.xcassets */; };
+		5E1ED0192B74D89300D49E4B /* FindMyIPTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED0182B74D89300D49E4B /* FindMyIPTests.swift */; };
+		5E1ED0232B74D89300D49E4B /* FindMyIPUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED0222B74D89300D49E4B /* FindMyIPUITests.swift */; };
+		5E1ED0252B74D89300D49E4B /* FindMyIPUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED0242B74D89300D49E4B /* FindMyIPUITestsLaunchTests.swift */; };
+		5E1ED0322B74D93800D49E4B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED0312B74D93700D49E4B /* ViewModel.swift */; };
+		5E1ED0332B74D93800D49E4B /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED0312B74D93700D49E4B /* ViewModel.swift */; };
+		5E1ED0352B74D94300D49E4B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED0342B74D94300D49E4B /* Service.swift */; };
+		5E1ED0362B74D94300D49E4B /* Service.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED0342B74D94300D49E4B /* Service.swift */; };
+		5E1ED0382B74D94F00D49E4B /* InfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED0372B74D94F00D49E4B /* InfoModel.swift */; };
+		5E1ED0392B74D94F00D49E4B /* InfoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED0372B74D94F00D49E4B /* InfoModel.swift */; };
+		5E1ED03B2B74DC4A00D49E4B /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED03A2B74DC4A00D49E4B /* LoaderView.swift */; };
+		5E1ED03C2B74DC4A00D49E4B /* LoaderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED03A2B74DC4A00D49E4B /* LoaderView.swift */; };
+		5E1ED03E2B74DCD300D49E4B /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED03D2B74DCD300D49E4B /* InfoCardView.swift */; };
+		5E1ED03F2B74DCD300D49E4B /* InfoCardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED03D2B74DCD300D49E4B /* InfoCardView.swift */; };
+		5E1ED0412B74DF1C00D49E4B /* ipJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E1ED0402B74DF1C00D49E4B /* ipJSON.json */; };
+		5E1ED0422B74DF1C00D49E4B /* ipJSON.json in Resources */ = {isa = PBXBuildFile; fileRef = 5E1ED0402B74DF1C00D49E4B /* ipJSON.json */; };
+		5E1ED0442B74DF3700D49E4B /* InfoModelTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5E1ED0432B74DF3700D49E4B /* InfoModelTest.swift */; };
+		E37F8D084F75F71E30342AD6 /* Pods_FindMyIP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB6E83D507681CB341CDD52B /* Pods_FindMyIP.framework */; };
+		FEC0254A6201E8F327BFBFEE /* Pods_FindMyIPTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C5C8EDF29C9F6D909493D814 /* Pods_FindMyIPTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		5E1ED0152B74D89300D49E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E1ECFFC2B74D88E00D49E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1ED0032B74D88E00D49E4B;
+			remoteInfo = FindMyIP;
+		};
+		5E1ED01F2B74D89300D49E4B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 5E1ECFFC2B74D88E00D49E4B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5E1ED0032B74D88E00D49E4B;
+			remoteInfo = FindMyIP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		112DFD77AA76CE7AC480976F /* Pods-FindMyIPTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyIPTests.release.xcconfig"; path = "Target Support Files/Pods-FindMyIPTests/Pods-FindMyIPTests.release.xcconfig"; sourceTree = "<group>"; };
+		4A593206F5E1F7D6F7AE540C /* Pods-FindMyIP-FindMyIPUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyIP-FindMyIPUITests.debug.xcconfig"; path = "Target Support Files/Pods-FindMyIP-FindMyIPUITests/Pods-FindMyIP-FindMyIPUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		51D3F6ECCE5662813ED29C3E /* Pods-FindMyIP.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyIP.release.xcconfig"; path = "Target Support Files/Pods-FindMyIP/Pods-FindMyIP.release.xcconfig"; sourceTree = "<group>"; };
+		5E1ED0042B74D88E00D49E4B /* FindMyIP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FindMyIP.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1ED0072B74D88E00D49E4B /* FindMyIPApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyIPApp.swift; sourceTree = "<group>"; };
+		5E1ED0092B74D88E00D49E4B /* InfoContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoContentView.swift; sourceTree = "<group>"; };
+		5E1ED00B2B74D89200D49E4B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5E1ED00E2B74D89200D49E4B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		5E1ED0142B74D89300D49E4B /* FindMyIPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyIPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1ED0182B74D89300D49E4B /* FindMyIPTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyIPTests.swift; sourceTree = "<group>"; };
+		5E1ED01E2B74D89300D49E4B /* FindMyIPUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FindMyIPUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		5E1ED0222B74D89300D49E4B /* FindMyIPUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyIPUITests.swift; sourceTree = "<group>"; };
+		5E1ED0242B74D89300D49E4B /* FindMyIPUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FindMyIPUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5E1ED0312B74D93700D49E4B /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		5E1ED0342B74D94300D49E4B /* Service.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Service.swift; sourceTree = "<group>"; };
+		5E1ED0372B74D94F00D49E4B /* InfoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoModel.swift; sourceTree = "<group>"; };
+		5E1ED03A2B74DC4A00D49E4B /* LoaderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoaderView.swift; sourceTree = "<group>"; };
+		5E1ED03D2B74DCD300D49E4B /* InfoCardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoCardView.swift; sourceTree = "<group>"; };
+		5E1ED0402B74DF1C00D49E4B /* ipJSON.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = ipJSON.json; sourceTree = "<group>"; };
+		5E1ED0432B74DF3700D49E4B /* InfoModelTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoModelTest.swift; sourceTree = "<group>"; };
+		7F0CB1BE1B6AAE121BDA27A7 /* Pods_FindMyIP_FindMyIPUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyIP_FindMyIPUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8CA90D6A3B2A501653F2F867 /* Pods-FindMyIP.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyIP.debug.xcconfig"; path = "Target Support Files/Pods-FindMyIP/Pods-FindMyIP.debug.xcconfig"; sourceTree = "<group>"; };
+		AB6E83D507681CB341CDD52B /* Pods_FindMyIP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyIP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5C8EDF29C9F6D909493D814 /* Pods_FindMyIPTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FindMyIPTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D36611C9A70EA43C8A1DBAF7 /* Pods-FindMyIPTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyIPTests.debug.xcconfig"; path = "Target Support Files/Pods-FindMyIPTests/Pods-FindMyIPTests.debug.xcconfig"; sourceTree = "<group>"; };
+		FF2EE07F7AACD8481C11F950 /* Pods-FindMyIP-FindMyIPUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FindMyIP-FindMyIPUITests.release.xcconfig"; path = "Target Support Files/Pods-FindMyIP-FindMyIPUITests/Pods-FindMyIP-FindMyIPUITests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		5E1ED0012B74D88E00D49E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E37F8D084F75F71E30342AD6 /* Pods_FindMyIP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1ED0112B74D89300D49E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FEC0254A6201E8F327BFBFEE /* Pods_FindMyIPTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1ED01B2B74D89300D49E4B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52BB2FAB20742432A9CDD347 /* Pods_FindMyIP_FindMyIPUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5E1ECFFB2B74D88E00D49E4B = {
+			isa = PBXGroup;
+			children = (
+				5E1ED0062B74D88E00D49E4B /* FindMyIP */,
+				5E1ED0172B74D89300D49E4B /* FindMyIPTests */,
+				5E1ED0212B74D89300D49E4B /* FindMyIPUITests */,
+				5E1ED0052B74D88E00D49E4B /* Products */,
+				D1BAF277E42B8CFFBF9D942C /* Pods */,
+				F337D462006A188C1E6A1E84 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		5E1ED0052B74D88E00D49E4B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				5E1ED0042B74D88E00D49E4B /* FindMyIP.app */,
+				5E1ED0142B74D89300D49E4B /* FindMyIPTests.xctest */,
+				5E1ED01E2B74D89300D49E4B /* FindMyIPUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5E1ED0062B74D88E00D49E4B /* FindMyIP */ = {
+			isa = PBXGroup;
+			children = (
+				5E1ED0072B74D88E00D49E4B /* FindMyIPApp.swift */,
+				5E1ED0092B74D88E00D49E4B /* InfoContentView.swift */,
+				5E1ED00B2B74D89200D49E4B /* Assets.xcassets */,
+				5E1ED00D2B74D89200D49E4B /* Preview Content */,
+				5E1ED0312B74D93700D49E4B /* ViewModel.swift */,
+				5E1ED0342B74D94300D49E4B /* Service.swift */,
+				5E1ED0372B74D94F00D49E4B /* InfoModel.swift */,
+				5E1ED03A2B74DC4A00D49E4B /* LoaderView.swift */,
+				5E1ED03D2B74DCD300D49E4B /* InfoCardView.swift */,
+			);
+			path = FindMyIP;
+			sourceTree = "<group>";
+		};
+		5E1ED00D2B74D89200D49E4B /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				5E1ED00E2B74D89200D49E4B /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		5E1ED0172B74D89300D49E4B /* FindMyIPTests */ = {
+			isa = PBXGroup;
+			children = (
+				5E1ED0182B74D89300D49E4B /* FindMyIPTests.swift */,
+				5E1ED0402B74DF1C00D49E4B /* ipJSON.json */,
+				5E1ED0432B74DF3700D49E4B /* InfoModelTest.swift */,
+			);
+			path = FindMyIPTests;
+			sourceTree = "<group>";
+		};
+		5E1ED0212B74D89300D49E4B /* FindMyIPUITests */ = {
+			isa = PBXGroup;
+			children = (
+				5E1ED0222B74D89300D49E4B /* FindMyIPUITests.swift */,
+				5E1ED0242B74D89300D49E4B /* FindMyIPUITestsLaunchTests.swift */,
+			);
+			path = FindMyIPUITests;
+			sourceTree = "<group>";
+		};
+		D1BAF277E42B8CFFBF9D942C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8CA90D6A3B2A501653F2F867 /* Pods-FindMyIP.debug.xcconfig */,
+				51D3F6ECCE5662813ED29C3E /* Pods-FindMyIP.release.xcconfig */,
+				4A593206F5E1F7D6F7AE540C /* Pods-FindMyIP-FindMyIPUITests.debug.xcconfig */,
+				FF2EE07F7AACD8481C11F950 /* Pods-FindMyIP-FindMyIPUITests.release.xcconfig */,
+				D36611C9A70EA43C8A1DBAF7 /* Pods-FindMyIPTests.debug.xcconfig */,
+				112DFD77AA76CE7AC480976F /* Pods-FindMyIPTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		F337D462006A188C1E6A1E84 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AB6E83D507681CB341CDD52B /* Pods_FindMyIP.framework */,
+				7F0CB1BE1B6AAE121BDA27A7 /* Pods_FindMyIP_FindMyIPUITests.framework */,
+				C5C8EDF29C9F6D909493D814 /* Pods_FindMyIPTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		5E1ED0032B74D88E00D49E4B /* FindMyIP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1ED0282B74D89300D49E4B /* Build configuration list for PBXNativeTarget "FindMyIP" */;
+			buildPhases = (
+				D8D1DE3A0883B2A115E4515D /* [CP] Check Pods Manifest.lock */,
+				5E1ED0002B74D88E00D49E4B /* Sources */,
+				5E1ED0012B74D88E00D49E4B /* Frameworks */,
+				5E1ED0022B74D88E00D49E4B /* Resources */,
+				9BD3178A4981792DB04937E6 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FindMyIP;
+			productName = FindMyIP;
+			productReference = 5E1ED0042B74D88E00D49E4B /* FindMyIP.app */;
+			productType = "com.apple.product-type.application";
+		};
+		5E1ED0132B74D89300D49E4B /* FindMyIPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1ED02B2B74D89300D49E4B /* Build configuration list for PBXNativeTarget "FindMyIPTests" */;
+			buildPhases = (
+				8FB89910E36A951DFB63EC79 /* [CP] Check Pods Manifest.lock */,
+				5E1ED0102B74D89300D49E4B /* Sources */,
+				5E1ED0112B74D89300D49E4B /* Frameworks */,
+				5E1ED0122B74D89300D49E4B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E1ED0162B74D89300D49E4B /* PBXTargetDependency */,
+			);
+			name = FindMyIPTests;
+			productName = FindMyIPTests;
+			productReference = 5E1ED0142B74D89300D49E4B /* FindMyIPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		5E1ED01D2B74D89300D49E4B /* FindMyIPUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 5E1ED02E2B74D89300D49E4B /* Build configuration list for PBXNativeTarget "FindMyIPUITests" */;
+			buildPhases = (
+				B9BA9D36DA032B1D8FFBC17E /* [CP] Check Pods Manifest.lock */,
+				5E1ED01A2B74D89300D49E4B /* Sources */,
+				5E1ED01B2B74D89300D49E4B /* Frameworks */,
+				5E1ED01C2B74D89300D49E4B /* Resources */,
+				CC23ECC9A02454E62B35740B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5E1ED0202B74D89300D49E4B /* PBXTargetDependency */,
+			);
+			name = FindMyIPUITests;
+			productName = FindMyIPUITests;
+			productReference = 5E1ED01E2B74D89300D49E4B /* FindMyIPUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		5E1ECFFC2B74D88E00D49E4B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					5E1ED0032B74D88E00D49E4B = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					5E1ED0132B74D89300D49E4B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5E1ED0032B74D88E00D49E4B;
+					};
+					5E1ED01D2B74D89300D49E4B = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = 5E1ED0032B74D88E00D49E4B;
+					};
+				};
+			};
+			buildConfigurationList = 5E1ECFFF2B74D88E00D49E4B /* Build configuration list for PBXProject "FindMyIP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 5E1ECFFB2B74D88E00D49E4B;
+			productRefGroup = 5E1ED0052B74D88E00D49E4B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				5E1ED0032B74D88E00D49E4B /* FindMyIP */,
+				5E1ED0132B74D89300D49E4B /* FindMyIPTests */,
+				5E1ED01D2B74D89300D49E4B /* FindMyIPUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		5E1ED0022B74D88E00D49E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1ED0412B74DF1C00D49E4B /* ipJSON.json in Resources */,
+				5E1ED00F2B74D89200D49E4B /* Preview Assets.xcassets in Resources */,
+				5E1ED00C2B74D89200D49E4B /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1ED0122B74D89300D49E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1ED0422B74DF1C00D49E4B /* ipJSON.json in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1ED01C2B74D89300D49E4B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		8FB89910E36A951DFB63EC79 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyIPTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9BD3178A4981792DB04937E6 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyIP/Pods-FindMyIP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyIP/Pods-FindMyIP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindMyIP/Pods-FindMyIP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9BA9D36DA032B1D8FFBC17E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyIP-FindMyIPUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC23ECC9A02454E62B35740B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyIP-FindMyIPUITests/Pods-FindMyIP-FindMyIPUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-FindMyIP-FindMyIPUITests/Pods-FindMyIP-FindMyIPUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-FindMyIP-FindMyIPUITests/Pods-FindMyIP-FindMyIPUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D8D1DE3A0883B2A115E4515D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-FindMyIP-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5E1ED0002B74D88E00D49E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1ED0382B74D94F00D49E4B /* InfoModel.swift in Sources */,
+				5E1ED00A2B74D88E00D49E4B /* InfoContentView.swift in Sources */,
+				5E1ED0352B74D94300D49E4B /* Service.swift in Sources */,
+				5E1ED03E2B74DCD300D49E4B /* InfoCardView.swift in Sources */,
+				5E1ED0322B74D93800D49E4B /* ViewModel.swift in Sources */,
+				5E1ED0082B74D88E00D49E4B /* FindMyIPApp.swift in Sources */,
+				5E1ED03B2B74DC4A00D49E4B /* LoaderView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1ED0102B74D89300D49E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1ED0332B74D93800D49E4B /* ViewModel.swift in Sources */,
+				5E1ED0192B74D89300D49E4B /* FindMyIPTests.swift in Sources */,
+				5E1ED03C2B74DC4A00D49E4B /* LoaderView.swift in Sources */,
+				5E1ED0362B74D94300D49E4B /* Service.swift in Sources */,
+				5E1ED0442B74DF3700D49E4B /* InfoModelTest.swift in Sources */,
+				5E1ED03F2B74DCD300D49E4B /* InfoCardView.swift in Sources */,
+				5E1ED0392B74D94F00D49E4B /* InfoModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		5E1ED01A2B74D89300D49E4B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E1ED0252B74D89300D49E4B /* FindMyIPUITestsLaunchTests.swift in Sources */,
+				5E1ED0232B74D89300D49E4B /* FindMyIPUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5E1ED0162B74D89300D49E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E1ED0032B74D88E00D49E4B /* FindMyIP */;
+			targetProxy = 5E1ED0152B74D89300D49E4B /* PBXContainerItemProxy */;
+		};
+		5E1ED0202B74D89300D49E4B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 5E1ED0032B74D88E00D49E4B /* FindMyIP */;
+			targetProxy = 5E1ED01F2B74D89300D49E4B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		5E1ED0262B74D89300D49E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		5E1ED0272B74D89300D49E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		5E1ED0292B74D89300D49E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8CA90D6A3B2A501653F2F867 /* Pods-FindMyIP.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindMyIP/Preview Content\"";
+				DEVELOPMENT_TEAM = QKRHKM6LD3;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Himanshu.FindMyIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		5E1ED02A2B74D89300D49E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 51D3F6ECCE5662813ED29C3E /* Pods-FindMyIP.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FindMyIP/Preview Content\"";
+				DEVELOPMENT_TEAM = QKRHKM6LD3;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Himanshu.FindMyIP;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		5E1ED02C2B74D89300D49E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D36611C9A70EA43C8A1DBAF7 /* Pods-FindMyIPTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QKRHKM6LD3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Himanshu.FindMyIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyIP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindMyIP";
+			};
+			name = Debug;
+		};
+		5E1ED02D2B74D89300D49E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112DFD77AA76CE7AC480976F /* Pods-FindMyIPTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QKRHKM6LD3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Himanshu.FindMyIPTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/FindMyIP.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/FindMyIP";
+			};
+			name = Release;
+		};
+		5E1ED02F2B74D89300D49E4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4A593206F5E1F7D6F7AE540C /* Pods-FindMyIP-FindMyIPUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QKRHKM6LD3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Himanshu.FindMyIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMyIP;
+			};
+			name = Debug;
+		};
+		5E1ED0302B74D89300D49E4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FF2EE07F7AACD8481C11F950 /* Pods-FindMyIP-FindMyIPUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = QKRHKM6LD3;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.Himanshu.FindMyIPUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = FindMyIP;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		5E1ECFFF2B74D88E00D49E4B /* Build configuration list for PBXProject "FindMyIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1ED0262B74D89300D49E4B /* Debug */,
+				5E1ED0272B74D89300D49E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1ED0282B74D89300D49E4B /* Build configuration list for PBXNativeTarget "FindMyIP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1ED0292B74D89300D49E4B /* Debug */,
+				5E1ED02A2B74D89300D49E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1ED02B2B74D89300D49E4B /* Build configuration list for PBXNativeTarget "FindMyIPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1ED02C2B74D89300D49E4B /* Debug */,
+				5E1ED02D2B74D89300D49E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		5E1ED02E2B74D89300D49E4B /* Build configuration list for PBXNativeTarget "FindMyIPUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5E1ED02F2B74D89300D49E4B /* Debug */,
+				5E1ED0302B74D89300D49E4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 5E1ECFFC2B74D88E00D49E4B /* Project object */;
+}
